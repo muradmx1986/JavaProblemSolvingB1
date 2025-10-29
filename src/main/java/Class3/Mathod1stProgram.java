@@ -1,6 +1,6 @@
 package Class3;
 
-public class MathodProgram {
+public class Mathod1stProgram {
 
     static int addNumber(int a,int b) {
         return a + b;

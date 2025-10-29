@@ -1,13 +1,12 @@
 package Class3;
 
-
-import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Collections;
 
-public class ArraySortProgram {
+class ArreySortProgram {
     public static void main(String[] args) {
         Integer[] values = {10, 40, 75, 65, 80, 85, 90};
-        Array (values, Collections.reverseOrder());
+        Arrays.sort(values, Collections.reverseOrder()); // Sort in descending order
 
         for (int value : values) {
             System.out.println(value);
